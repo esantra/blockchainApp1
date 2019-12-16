@@ -16,6 +16,7 @@
     "browserless": "^5.18.19",
     "html-get": "^2.2.30",
     "lodash": "^4.17.15",
+    "node-schedule": "^1.3.2",
     "openweather-apis": "^4.1.0"
   }
 }
