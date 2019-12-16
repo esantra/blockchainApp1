@@ -6,7 +6,7 @@
   "main": "weather10HTML.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node weather10.js"
+    "start": "node weather10HTML.js"
   },
   "author": "Amanda Fouts",
   "license": "ISC",
