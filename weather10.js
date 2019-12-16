@@ -1,5 +1,6 @@
 class Weather {
     //refactor later to reflect best practices, etc.
+    //this file finished last minute
     constructor() {
         this.weather = require("openweather-apis");
         this.Arweave = require("arweave/node");
