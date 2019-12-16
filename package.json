@@ -1,0 +1,19 @@
+{
+  "name": "arw",
+  "version": "1.0.0",
+  "description": "Store 10 day weather forecast for your city or cities",
+  "type": "module",
+  "main": "weather10.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node weather10.js"
+  },
+  "author": "Amanda Fouts",
+  "license": "ISC",
+  "dependencies": {
+    "arweave": "^1.6.0",
+    "arweave-deploy": "^1.8.0",
+    "lodash": "^4.17.15",
+    "openweather-apis": "^4.1.0"
+  }
+}
