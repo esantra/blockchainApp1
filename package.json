@@ -13,6 +13,8 @@
   "dependencies": {
     "arweave": "^1.6.0",
     "arweave-deploy": "^1.8.0",
+    "browserless": "^5.18.19",
+    "html-get": "^2.2.30",
     "lodash": "^4.17.15",
     "openweather-apis": "^4.1.0"
   }
