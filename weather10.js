@@ -44,7 +44,7 @@ class Weather {
     }
 
     async init() {
-		let wThis = this;
+	let wThis = this;
             await this.cities.forEach(city => {
                     console.log(city);
                     this.weather.setCity(city);
