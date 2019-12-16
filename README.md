@@ -4,12 +4,10 @@ This blockchain node.js app was completed in a very short time. It stores a copy
 </p>
 <p>
   <ul>
-  <li>My first blockchain app</li>
-  <li>Feel free to use it any way you see fit</li>
-  <li>Just an experimental blockchain app. My very first one #gettingmyfeetwet.</li>
+  <li>Grabs the html of the page using npm module <a href="https://www.npmjs.com/package/html-get">html-get</a></li>
+  <li>Arweave stores the html of the page using blockweave(blockchain)</li>
+  <li>Stored content can be accessed at the following Airweave Wallet Address: https://viewblock.io/arweave/address/Q4gENUSLHwfIF1H-z2jp7Eag6N_e2V6bbBahYW-6leM</li>
   </ul>
 </p>
-
-Airweave Wallet Address: https://viewblock.io/arweave/address/Q4gENUSLHwfIF1H-z2jp7Eag6N_e2V6bbBahYW-6leM
 </html>
 
