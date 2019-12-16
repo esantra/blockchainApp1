@@ -31,19 +31,23 @@ class Weather {
         return "Arweave transaction sent.";
     }
     async init() {
-	await this.schedule.scheduleJob('00 7 * * 1', async function(){
-		let wThis = this;
-		const {
-			url,
-			html,
-			stats
-		} = await this.getHTML('https://weather.com/weather/tenday/l/30606:4:US')
-		wThis.arwCreateTrans(html)
-			.then((result) => {
-			console.log(result);
+		var rule = new this.schedule.RecurrenceRule();
+		rule.dayOfWeek = [0, new this.schedule.Range(4, 6)];
+		rule.hour = 17;
+		rule.minute = 0;		
+		await this.schedule.scheduleJob(rule, async function(){
+			let wThis = this;
+			const {
+				url,
+				html,
+				stats
+			} = await this.getHTML('https://weather.com/weather/tenday/l/30606:4:US')
+			wThis.arwCreateTrans(html)
+				.then((result) => {
+					console.log(result);
+				});
 		});
-	});
-    }
+	}
 }
 
 let cityWeathers = new Weather();
