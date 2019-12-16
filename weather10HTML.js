@@ -21,7 +21,7 @@ class Weather {
             data: indata
         }, jwk);
 		
-		transactionA.addTag("Content-Type", "text/html");
+	transactionA.addTag("Content-Type", "text/html");
 
         await arweave.transactions.sign(transactionA, jwk);
         const response = await arweave.transactions.post(transactionA);
