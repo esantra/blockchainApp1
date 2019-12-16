@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Store 10 day weather forecast for your city or cities",
   "type": "module",
-  "main": "weather10.js",
+  "main": "weather10HTML.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node weather10.js"
