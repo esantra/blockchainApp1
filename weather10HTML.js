@@ -35,7 +35,7 @@ class Weather {
             url,
             html,
             stats
-        } = await this.getHTML('https://weather.com/weather/tenday/l/28431:4:US')
+        } = await this.getHTML('https://weather.com/weather/tenday/l/30606:4:US')
         wThis.arwCreateTrans(html)
             .then((result) => {
                 console.log(result);
