@@ -6,7 +6,6 @@ class Weather {
         this.getHTML = require('html-get');
     }
 
-
     async arwCreateTrans(indata) {
         const arweave = await this.Arweave.init({
             host: "arweave.net",
