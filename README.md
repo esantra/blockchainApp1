@@ -4,11 +4,12 @@ This blockchain node.js app was completed in a very short time - under about 8 h
 </p>
 <p>
   <ul>
-  <li>Grabs the html of the page using npm module <a href="https://www.npmjs.com/package/html-get">html-get</a></li>
-  <li>Arweave stores the html of the page using blockweave(blockchain)</li>
-  <li>Stored content can be accessed at the following Airweave Wallet Address: https://viewblock.io/arweave/address/Q4gENUSLHwfIF1H-z2jp7Eag6N_e2V6bbBahYW-6leM</li>
+    <li>Install is super easy. Just run ```npm i``` and then ```npm start```</li>
+    <li>weather10HTML.js Grabs the html of the page using npm module <a href="https://www.npmjs.com/package/html-get">html-get</a></li>
+    <li>Arweave stores the html of the page using blockweave(blockchain)</li>
+    <li>Stored content can be accessed at the following Airweave Wallet Address: https://viewblock.io/arweave/address/Q4gENUSLHwfIF1H-z2jp7Eag6N_e2V6bbBahYW-6leM</li>
   </ul>
 </p>
 </html>
 
-*Files are available for storing api data from openweather as well
+*Files (weather.js and weather10.js) are available for storing api data from openweather as well
