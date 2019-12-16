@@ -18,4 +18,4 @@ Install is super easy. Just clone the repo, cd inside the repo, and then run
 </p>
 </html>
 
-*Files (weather.js and weather10.js) are available for storing api data from openweather as well
+<i>*Files (weather.js and weather10.js) are available for storing api data from openweather api as well</i>
