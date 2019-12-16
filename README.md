@@ -12,7 +12,7 @@ Install is super easy if you have Node.js installed on your machine. Just clone 
 
 <p>
   <ul>
-    <li>weather10HTML.js Grabs the html of the page using npm module <a href="https://www.npmjs.com/package/html-get">html-get</a></li>
+    <li>weather10HTML.js Grabs the html of the 10 day weather forecast for Athens, GA (you can change this in the code) in html webpage form using npm module <a href="https://www.npmjs.com/package/html-get">html-get</a></li>
     <li>Arweave stores the html of the page using blockweave(blockchain)</li>
     <li>My stored content can be accessed at the following Airweave Wallet Address: https://viewblock.io/arweave/address/Q4gENUSLHwfIF1H-z2jp7Eag6N_e2V6bbBahYW-6leM, but enter your own key for your own wallet.</li>
   </ul>
