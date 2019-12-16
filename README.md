@@ -20,4 +20,5 @@ Install is super easy if you have Node.js installed on your machine. Just clone 
 </html>
 
 <i>*Files (weather.js and weather10.js) are available for storing api data from openweather api as well</i>
+<br/>
 <i>*File weather10HTML_Schedule.js is available for running a scheduled job.</i>
