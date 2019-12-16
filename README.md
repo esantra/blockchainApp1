@@ -13,7 +13,7 @@ Install is super easy. Just clone the repo, cd inside the repo, and then run
   <ul>
     <li>weather10HTML.js Grabs the html of the page using npm module <a href="https://www.npmjs.com/package/html-get">html-get</a></li>
     <li>Arweave stores the html of the page using blockweave(blockchain)</li>
-    <li>Stored content can be accessed at the following Airweave Wallet Address: https://viewblock.io/arweave/address/Q4gENUSLHwfIF1H-z2jp7Eag6N_e2V6bbBahYW-6leM</li>
+    <li>My stored content can be accessed at the following Airweave Wallet Address: https://viewblock.io/arweave/address/Q4gENUSLHwfIF1H-z2jp7Eag6N_e2V6bbBahYW-6leM, but enter your own key for your own wallet.</li>
   </ul>
 </p>
 </html>
