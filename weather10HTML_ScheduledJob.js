@@ -31,18 +31,18 @@ class Weather {
         return "Arweave transaction sent.";
     }
     async init() {
-		this.schedule.scheduleJob('00 7 * * 1', async function(){
-			let wThis = this;
-			const {
-				url,
-				html,
-				stats
-			} = await this.getHTML('https://weather.com/weather/tenday/l/30606:4:US')
-			wThis.arwCreateTrans(html)
-				.then((result) => {
-					console.log(result);
-				});
+	await this.schedule.scheduleJob('00 7 * * 1', async function(){
+		let wThis = this;
+		const {
+			url,
+			html,
+			stats
+		} = await this.getHTML('https://weather.com/weather/tenday/l/30606:4:US')
+		wThis.arwCreateTrans(html)
+			.then((result) => {
+			console.log(result);
 		});
+	});
     }
 }
 
