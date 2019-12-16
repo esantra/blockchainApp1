@@ -29,7 +29,6 @@ class Weather {
         });
         return "Arweave transaction sent.";
     }
-
     async init() {
 		let wThis = this;
         const {
